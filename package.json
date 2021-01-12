@@ -29,7 +29,7 @@
     "@sailshq/lodash": "^3.10.4",
     "prompt": "1.0.0",
     "switchback": "2.0.5",
-    "waterline-criteria": "github:immuta/waterline-criteria/fix_lodash",
+    "waterline-criteria": "github:immuta/waterline-criteria#fix_lodash",
     "waterline-schema": "github:immuta/waterline-schema#fix_lodash"
   },
   "devDependencies": {
