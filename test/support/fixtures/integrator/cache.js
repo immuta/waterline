@@ -1,7 +1,7 @@
 /**
  * Module dependencies.
  */
-var _ = require('lodash');
+var _ = require('@sailshq/lodash');
 var fixtures = {
 	tables: require('./tables')
 };
@@ -9,7 +9,7 @@ var fixtures = {
 
 /**
  * Cache
- * 
+ *
  * @type {Object}
  */
 module.exports = (function () {

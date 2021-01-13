@@ -2,7 +2,7 @@
  * Module Dependencies
  */
 var Waterline = require('../../../lib/waterline');
-var _ = require('lodash');
+var _ = require('@sailshq/lodash');
 
 /**
  * @option {Adapter} adapter
@@ -39,7 +39,7 @@ module.exports = function (options) {
 
     waterline.initialize({ adapters: { barbaz: options.adapter }, connections: connections }, function(err, ocean) {
       if (err) return done(err);
-      
+
       // Save access to all collections + connections
       self.ocean = ocean;
 
