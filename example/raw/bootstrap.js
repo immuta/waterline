@@ -2,7 +2,7 @@
  * Module dependencies
  */
 
-var _ = require('lodash')
+var _ = require('@sailshq/lodash')
   , Waterline = require('../../lib/waterline');
 
 
@@ -36,7 +36,7 @@ module.exports = function bootstrap( options, cb ) {
     // Make sure our adapter defs have `identity` properties
     def.identity = def.identity || identity;
   });
-  
+
 
   var extendedCollections = [];
   _(collections).each(function (def, identity) {

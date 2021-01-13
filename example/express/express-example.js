@@ -3,7 +3,7 @@
  */
 
 var express = require('express'),
-    _ = require('lodash'),
+    _ = require('@sailshq/lodash'),
     app = express(),
     Waterline = require('waterline'),
     bodyParser = require('body-parser'),
@@ -154,6 +154,6 @@ orm.initialize(config, function(err, models) {
 
   // Start Server
   app.listen(3000);
-  
+
   console.log("To see saved users, visit http://localhost:3000/users");
 });

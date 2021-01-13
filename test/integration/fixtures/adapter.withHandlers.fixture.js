@@ -1,7 +1,7 @@
 /**
  * Module dependencies
  */
-var _ = require('lodash');
+var _ = require('@sailshq/lodash');
 
 
 
@@ -38,7 +38,7 @@ module.exports = {
 
 
   // DDL Methods
-  // 
+  //
   describe: function (conn, cid, cb) {
     cb(null, _colls[cid]);
   },
@@ -53,7 +53,7 @@ module.exports = {
       _colls[cid].definition[attrName] = attrDef;
     }
     catch (e) { return cb(e); }
-    
+
     cb();
   },
 
