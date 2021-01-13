@@ -29,8 +29,8 @@
     "@sailshq/lodash": "^3.10.4",
     "prompt": "1.0.0",
     "switchback": "2.0.5",
-    "waterline-criteria": "github:immuta/waterline-criteria#fix_lodash",
-    "waterline-schema": "github:immuta/waterline-schema#fix_lodash"
+    "waterline-criteria": "github:immuta/waterline-criteria#v1.0.1-immuta1",
+    "waterline-schema": "github:immuta/waterline-schema#v0.2.0-immuta1"
   },
   "devDependencies": {
     "codeclimate-test-reporter": "0.3.2",
