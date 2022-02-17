@@ -1,7 +1,7 @@
 {
   "name": "waterline",
   "description": "An ORM for Node.js and the Sails framework",
-  "version": "0.12.2-immuta2",
+  "version": "0.12.2-immuta3",
   "homepage": "http://github.com/balderdashy/waterline",
   "contributors": [
     {
@@ -22,11 +22,11 @@
     }
   ],
   "dependencies": {
-    "anchor": "github:immuta/anchor#v0.11.6-immuta1",
+    "@sailshq/lodash": "^3.10.4",
+    "anchor": "github:immuta/anchor#v0.11.6-immuta2",
     "async": "1.5.2",
     "bluebird": "3.2.1",
     "deep-diff": "0.3.4",
-    "@sailshq/lodash": "^3.10.4",
     "prompt": "1.0.0",
     "switchback": "2.0.5",
     "waterline-criteria": "github:immuta/waterline-criteria#v1.0.1-immuta1",
