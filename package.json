@@ -22,11 +22,11 @@
     }
   ],
   "dependencies": {
-    "anchor": "github:immuta/anchor#upgrade_validator",
+    "@sailshq/lodash": "^3.10.4",
+    "anchor": "github:immuta/anchor#v0.11.6-immuta2",
     "async": "1.5.2",
     "bluebird": "3.2.1",
     "deep-diff": "0.3.4",
-    "@sailshq/lodash": "^3.10.4",
     "prompt": "1.0.0",
     "switchback": "2.0.5",
     "waterline-criteria": "github:immuta/waterline-criteria#v1.0.1-immuta1",
